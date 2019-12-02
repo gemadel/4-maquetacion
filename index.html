@@ -1,0 +1,171 @@
+<!doctype>
+<html lang= "en">
+    <head>
+        <meta charset=utf-8>
+        <title>Documento</title>
+        <link href="https://fonts.googleapis.com/css?family=Encode+Sans&display=swap" rel="stylesheet">
+        <style type="text/css">
+            @font-face{
+                font-family:"Coochie";
+                src:url("fonts/CoochieNandoNFW01Regular/CoochieNandoNFW01Regular.eot");
+                src:url("fonts/CoochieNandoNFW01Regular/CoochieNandoNFW01Regular.svg");
+                src:url("fonts/CoochieNandoNFW01Regular/CoochieNandoNFW01Regular.ttf");
+                src:url("fonts/CoochieNandoNFW01Regular/CoochieNandoNFW01Regular.woff");
+            }
+              
+            *{
+                padding: 0;
+                margin: 0;
+            }
+            body{
+                font-size: 16px;
+            }
+            html{
+                height: 100%;
+            }
+            header{
+                display: flex;
+            }
+            section{
+                width: 50%;
+                height: 100vh;
+                object-fit: cover;
+            }
+            header section:first-child{
+                float: left;
+                background: red;
+                position: relative;
+            }
+            header section:last-child{
+                object-fit: cover;
+                float: right;
+                background: blue;
+                position: relative;
+            }
+            img{
+                width: 100%;
+            }
+            header section:first-child img{
+                height: 100%;
+                object-fit: cover;
+                object-position: center center;
+            }
+            header section:last-child img{
+                height: 100%;
+                object-fit: cover;
+                object-position: center center;
+            }
+            h1{
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                width:100%;
+                height: 100%;
+                display: flex;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                font-size: 4vw;
+                color: salmon;
+                font-family: "Coochie";
+            }
+            main{
+                width: 600px;
+                margin: auto;
+                font-family: 'Encode Sans', sans-serif;
+            }
+            main>p{
+                padding: 2em 0;
+                color: crimson;
+                column-count: 2;
+                column-gap: 30px;
+                column-rule: 1px solid salmon;
+                text-align: justify;
+                hyphens: auto;
+            }
+            article{
+                padding: 0 4em;
+                color: gray;
+            }
+            article p{
+                margin: 0 0 1,2 0;
+            }
+            article p:first-child::first-letter{
+                color: crimson;
+                background: azure;
+                font-size: 8em;
+                float: left;
+                line-height: 6rem;
+                padding-right: 1rem;
+                padding-left: 1rem;
+                padding-bottom: 0.5rem;
+                padding-top: 0.5rem;
+            }
+            .cercle{
+                background: salmon;
+                border-radius: 59%;
+                 shape-outside: circle(59%) border-box;
+                float: left;
+                max-width: 18em;
+                margin-left: -3em;
+                shape-margin: 0.1em;
+            }
+            article .cercle img{
+                mix-blend-mode: hard-light;
+                border-radius: 59%;
+                shape-outside: circle(59%);
+            }
+            .exagon{
+                float: right;
+                max-width: 20em;
+                margin-right: -6em;
+                shape-margin: 0.7em;
+                clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+                shape-outside: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)border-box;
+            }
+            article .exagon img{
+                clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+                shape-outside: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+            }
+            @media(max-width: 600px){
+                body{
+                    font-size: 14px;
+                    background: azure;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <section>
+                <img src="img/af.jpg">
+                <h1 >Alan Fletcher <br> graphic designer</h1>
+            </section>
+            <section>
+                <h1>Vicent Frost <br> graphic designer</h1>
+                <img src="img/FROST.jpg">
+            </section>
+        </header>
+        <main>
+            <p>En 1989 se unió a Pentagram a tiempo completo antes de convertirse en su asociado más joven, solo tres años después, a la edad de 27 años.
+                En noviembre de 1994 formó su propia consultoría, Frost Design en Londres , creando trabajos galardonados para clientes desde el periódico The Independent hasta Nike.
+                En 2003, Vince se mudó a Sydney, Australia, desde donde ahora dirige un estudio de ideas creativas enfocado internacionalmente de 40 personas, el colectivo Frost 
+                Además de ser miembro de varias sociedades de diseño a nivel mundial, Frost es miembro del Comité Ejecutivo de D&AD (Directores de Diseño y Arte, Londres).  Ha ganado premios de la Sociedad de Diseñadores de Publicaciones de Nueva York, D&AD, el Art Directors Club de Nueva York y Tokio, entre muchos otros. 
+                En noviembre de 2014, Vince Frost lanzó su segunda publicación, Design Your Life.
+                Vince frost trabajo en Pentagram y luego se convitio en un asocia do de la empresa. Luego fundo su propio estudio, llamado Frost Design. Vince Frost es miembro del Comité Ejecutivo de D&AD (Directores de Diseño y Arte, Londres)Ha ganado premios de la Sociedad de Diseñadores de Publicaciones de Nueva York, D&AD, el Art Directors Club de Nueva York y Tokio, entre muchos otros.</p>
+            <article>
+            <p>Era su libro diseño gráfico: Una comparación visual. Sus clientes incluían Pirelli, Cunard, libros del pingüino y Olivetti. Gill dejó la sociedad en 1965 y fue substituido por Theo Crosby, así que la firma se convirtió en Crosby/Fletcher/Forbes. Dos nuevos socios ensamblaron, y la sociedad evolucionó a Pentagram en 1972, con Forbes, Crosby, Grange de Kenneth y Mervyn Kurlansky, con clientes que incluían Lloyd´s of London y Daimler Benz.</p>
+                <div class="cercle">
+                <img src="img/FROST.jpg">
+                </div>
+               <p> Muchos de sus diseños siguen funcionando: la insignia para Reuters que compuso de 84 puntos, creada en 1965, fue retirada en 1992, pero su insignia de “V&A” para Victoria and Albert Museum, y su insignia de “IoD” para el Institute of Directors sigue funcionando. En los años pasados el diseñó la insignia para la escuela italiana de la arquitectura “Facolta` di Architettura di Alghero”. Una exposición de su trabajo de vida se abrió en el Design Museum en Londres en el 11 de noviembre de 2006 hasta el 18 de febrero de 2007, junto a la publicación póstuma de su libro, “Picturing and Poeting”.</p>
+                <div class="exagon">
+                <img src="img/6a00e5532538c48833012876c73b27970c-320wi.jpg">
+                    </div>
+                <p>Ganó el Prince Philip Prize al diseñador del año, fue presidente de Designers and Art Directors Association en 1973 y el presidente internacional de la Alliance Graphique Internationale a partir de 1982 a 1985. Lo eligieron al Hall of Fame del club de directores de arte de nueva york en 1994, era un compañero mayor de la universidad real del arte en 1989 y fue un socio mayor del Royal College of Art en el 2000Ganó el Prince Philip Prize al diseñador del año, fue presidente de Designers and Art Directors Association en 1973 y el presidente internacional de la Alliance Graphique Internationale a partir de 1982 a 1985. Lo eligieron al Hall of Fame del club de directores de arte de nueva york en 1994, era un compañero mayor de la universidad real del arte en 1989 y fue un socio mayor del Royal College of Art en el 2000Ganó el Prince Philip Prize al diseñador del año, fue presidente de Designers and Art Directors Association en 1973 y el presidente internacional de la Alliance Graphique Internationale a partir de 1982 a 1985. Lo eligieron al Hall of Fame del club de directores de arte de nueva york en 1994, era un compañero mayor de la universidad real del arte en 1989 y fue un socio mayor del Royal College of Art en el 2000</p>
+            </article>
+        </main>
+    </body>
+</html>
